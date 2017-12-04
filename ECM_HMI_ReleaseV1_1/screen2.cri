@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.31.67.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="screen2.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Text25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Text26" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Text27" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="screen2.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture5" TargetProperty="Actions" Source="Tags.Purge_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture5" TargetProperty="Actions" Source="Tags.Purge_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item Target="screen2.MultiPicture5" TargetProperty="Value" Source="Tags.Purge_toggle" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture26" TargetProperty="Actions" Source="Tags.Heat_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture26" TargetProperty="Actions" Source="Tags.Heat_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item Target="screen2.MultiPicture26" TargetProperty="Value" Source="Tags.Heat_toggle" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture27" TargetProperty="Actions" Source="Tags.Cooling_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture27" TargetProperty="Actions" Source="Tags.Cooling_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item Target="screen2.MultiPicture27" TargetProperty="Value" Source="Tags.Cooling_toggle" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture28" TargetProperty="Actions" Source="Tags.Wet_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture28" TargetProperty="Actions" Source="Tags.Wet_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item Target="screen2.MultiPicture28" TargetProperty="Value" Source="Tags.Wet_toggle" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture29" TargetProperty="Actions" Source="Tags.Dry_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture29" TargetProperty="Actions" Source="Tags.Dry_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item Target="screen2.MultiPicture29" TargetProperty="Value" Source="Tags.Dry_toggle" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture30" TargetProperty="Actions" Source="Tags.Water_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture30" TargetProperty="Actions" Source="Tags.Water_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item Target="screen2.MultiPicture30" TargetProperty="Value" Source="Tags.Water_toggle" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="screen2.Button" TargetProperty="Actions" Source="scren1" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>screen2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>screen2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture5" TargetProperty="Actions" Source="Tags.Purge_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture5" TargetProperty="Actions" Source="Tags.Purge_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture26" TargetProperty="Actions" Source="Tags.Heat_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture26" TargetProperty="Actions" Source="Tags.Heat_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture27" TargetProperty="Actions" Source="Tags.Cooling_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture27" TargetProperty="Actions" Source="Tags.Cooling_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture28" TargetProperty="Actions" Source="Tags.Wet_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture28" TargetProperty="Actions" Source="Tags.Wet_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture29" TargetProperty="Actions" Source="Tags.Dry_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture29" TargetProperty="Actions" Source="Tags.Dry_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture30" TargetProperty="Actions" Source="Tags.Water_toggle" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="screen2.MultiPicture30" TargetProperty="Actions" Source="Tags.Water_toggle" Event="MouseDown" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture5" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture5" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture26" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture26" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture27" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture27" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture28" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture28" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture29" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture29" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture30" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.MultiPicture30" Source="button 2a" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="screen2.Button" Source="bb_arrow left" Width="54" Height="54" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

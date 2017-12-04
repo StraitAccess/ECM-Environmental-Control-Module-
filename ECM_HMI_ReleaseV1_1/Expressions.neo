@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.30.24.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Expressions.ExpressionManager, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="Expressions" ProjectGuid="b827ab09-3abe-4d7d-b81f-4470cf990127">
+    <Expressions>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.Expressions.Expression, ControlsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Group="" Script="value" ProjectGuid="b827ab09-3abe-4d7d-b81f-4470cf990127" IsPublic="True" Name="xfhfdz" Description="" />
+    </Expressions>
+  </Object>
+</NeoItem>

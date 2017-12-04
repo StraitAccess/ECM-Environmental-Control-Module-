@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.31.67.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags" TargetProperty="Cooling_toggle" Source="Modbus_TCP.DataItem1" />
+        <Item Target="Tags" TargetProperty="Cooling_toggle" Source="Modbus_RTU.DataItem3" />
+        <Item Target="Tags" TargetProperty="Heat_toggle" Source="Modbus_TCP.DataItem2" />
+        <Item Target="Tags" TargetProperty="Heat_toggle" Source="Modbus_RTU.DataItem1" />
+        <Item Target="Tags" TargetProperty="Wet_toggle" Source="Modbus_TCP.DataItem3" />
+        <Item Target="Tags" TargetProperty="Wet_toggle" Source="Modbus_RTU.DataItem2" />
+        <Item Target="Tags" TargetProperty="Temp_current" Source="Modbus_TCP.DataItem4" />
+        <Item Target="Tags" TargetProperty="Temp_current" Source="Modbus_RTU.DataItem4" />
+        <Item Target="Tags" TargetProperty="Dry_toggle" Source="Modbus_TCP.DataItem5" />
+        <Item Target="Tags" TargetProperty="Dry_toggle" Source="Modbus_RTU.DataItem5" />
+        <Item Target="Tags" TargetProperty="Humidity_current" Source="Modbus_TCP.DataItem6" />
+        <Item Target="Tags" TargetProperty="Humidity_current" Source="Modbus_RTU.DataItem6" />
+        <Item Target="Tags" TargetProperty="Water_toggle" Source="Modbus_TCP.DataItem7" />
+        <Item Target="Tags" TargetProperty="Water_toggle" Source="Modbus_RTU.DataItem7" />
+        <Item Target="Tags" TargetProperty="Humidifier_toggle1" Source="Modbus_TCP.DataItem8" />
+        <Item Target="Tags" TargetProperty="Humidifier_toggle1" Source="Modbus_RTU.DataItem8" />
+        <Item Target="Tags" TargetProperty="Purge_toggle" Source="Modbus_TCP.DataItem9" />
+        <Item Target="Tags" TargetProperty="Purge_toggle" Source="Modbus_RTU.DataItem9" />
+        <Item Target="Tags" TargetProperty="Temprature" Source="Modbus_TCP.DataItem11" />
+        <Item Target="Tags" TargetProperty="Temprature" Source="Modbus_RTU.DataItem10" />
+        <Item Target="Tags" TargetProperty="Humidifier" Source="Modbus_TCP.DataItem10" />
+        <Item Target="Tags" TargetProperty="Humidifier" Source="Modbus_RTU.DataItem11" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

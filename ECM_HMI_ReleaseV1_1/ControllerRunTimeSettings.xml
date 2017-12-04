@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Controller Name="Modbus_RTU" IsActive="true" Node="" ServerName="Beijer.InprocessNeo.1" Driver="Modicon_Modbus_RTU_ASCII_Pre2.Modicon_Modbus_RTU_ASCII_Pre2.1" Url="" DataSourceType="DataSourceOpcClassicInprocess" />
+  <Controller Name="Modbus_TCP" IsActive="false" Node="" ServerName="Beijer.InprocessNeo.1" Driver="Modicon_Modbus_RTU_ASCII_Pre2.Modicon_Modbus_RTU_ASCII_Pre2.1" Url="" DataSourceType="DataSourceOpcClassicInprocess" />
+</Configuration>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.31.67.0" ProjectRevision="137">
+  <Guid>b827ab09-3abe-4d7d-b81f-4470cf990127</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2017-04-04T09:53:36+02:00" Length="1056" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2017-11-27T09:35:51.8146848+02:00" Length="12695" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2017-10-16T15:54:44+02:00" Length="784" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2017-10-23T09:02:44+02:00" Length="14234" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2017-11-27T10:28:54.5495966+02:00" Length="19078" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2017-11-27T10:28:54.5576435+02:00" Length="779" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2017-10-10T14:59:46+02:00" Length="7877" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2017-04-04T09:53:36+02:00" Length="451" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2017-04-04T09:53:36+02:00" Length="694" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2017-04-04T09:53:36+02:00" Length="470" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2017-11-07T11:24:40+02:00" Length="454" />
+    <ProjectFile Name="Symbols\pandown (1).png" ModifiedDate="2017-11-07T10:46:18+02:00" Length="4231" />
+    <ProjectFile Name="Symbols\panup.png" ModifiedDate="2017-11-07T10:46:08+02:00" Length="4136" />
+    <ProjectFile Name="Symbols\controllino_logo.jpg" ModifiedDate="2017-04-24T15:11:30+02:00" Length="16094" />
+    <ProjectFile Name="Symbols\controllino_logo_.jpg" ModifiedDate="2017-04-24T17:30:56+02:00" Length="19146" />
+    <ProjectFile Name="Symbols\button 2a.gif" ModifiedDate="2017-05-09T08:50:58+02:00" Length="9055" />
+    <ProjectFile Name="Symbols\button 2b.gif" ModifiedDate="2017-05-09T08:50:58+02:00" Length="7815" />
+    <ProjectFile Name="Symbols\bb_arrow left.lib" ModifiedDate="2017-09-26T14:57:20+02:00" Length="11575" />
+    <ProjectFile Name="Symbols\bb_arrow right.lib" ModifiedDate="2017-09-26T14:57:20+02:00" Length="11775" />
+    <ProjectFile Name="Symbols\bulb off.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="27625" />
+    <ProjectFile Name="Symbols\led_green.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="34325" />
+    <ProjectFile Name="Symbols\led_red.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="33316" />
+    <ProjectFile Name="Symbols\slide switch2 off.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="12559" />
+    <ProjectFile Name="Symbols\slide switch2 on.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="12779" />
+    <ProjectFile Name="Symbols\turnswitch2_0.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="24563" />
+    <ProjectFile Name="Symbols\turnswitch4 on.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="25776" />
+    <ProjectFile Name="Symbols\turnswitch5_0.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="26524" />
+    <ProjectFile Name="Symbols\turnswitch5_1.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="26538" />
+    <ProjectFile Name="Symbols\turnswitch5_2.lib" ModifiedDate="2016-09-16T01:38:04+02:00" Length="26536" />
+    <ProjectFile Name="screen2.neoxaml" ModifiedDate="2017-11-28T11:34:41.6729116+02:00" Length="796" />
+    <ProjectFile Name="screen2.Script.cs" ModifiedDate="2017-11-28T11:34:41.6779262+02:00" Length="893" />
+    <ProjectFile Name="screen2.xaml" ModifiedDate="2017-11-28T11:34:41.7711734+02:00" Length="19440" />
+    <ProjectFile Name="scren1.neoxaml" ModifiedDate="2017-11-28T11:21:40.6789058+02:00" Length="795" />
+    <ProjectFile Name="scren1.xaml" ModifiedDate="2017-11-28T11:21:41.3055088+02:00" Length="19894" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2017-11-10T15:32:06+02:00" Length="796" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2017-11-10T15:32:06+02:00" Length="542" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2017-04-04T09:53:36+02:00" Length="850" />
+    <ProjectFile Name="Modbus_TCP.neo" ModifiedDate="2017-11-27T09:51:54.2261133+02:00" Length="4125" />
+    <ProjectFile Name="Modbus_RTU.neo" ModifiedDate="2017-11-24T16:13:41.8925624+02:00" Length="4097" />
+  </ProjectFiles>
+</Project>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrendDataSources>
+  <TrendViewer Name="scren1.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="371" TimeRange="PT4M">
+    <GlobalDataItems>
+      <GlobalDataItem DataSourceName="Tags.Temp_current" />
+      <GlobalDataItem DataSourceName="Tags.Humidity_current" />
+    </GlobalDataItems>
+  </TrendViewer>
+</TrendDataSources>

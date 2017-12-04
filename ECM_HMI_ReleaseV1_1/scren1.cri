@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.31.67.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="scren1.AnalogNumeric13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.AnalogNumeric14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.TrendViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.Button29" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.Button30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="scren1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="scren1.AnalogNumeric13" TargetProperty="Value" Source="Tags.Humidity_current" />
+        <Item Target="scren1.AnalogNumeric14" TargetProperty="Value" Source="Tags.Temp_current" />
+        <Item Target="scren1.AnalogNumeric" TargetProperty="Value" Source="Tags.Temprature" />
+        <Item Target="scren1.AnalogNumeric1" TargetProperty="Value" Source="Tags.Humidifier" />
+        <Item xsi:type="DecoratedItem" Target="scren1.TrendViewer.Curve" TargetProperty="DataSourceName" Source="Tags.Temp_current" />
+        <Item xsi:type="DecoratedItem" Target="scren1.TrendViewer.Curve1" TargetProperty="DataSourceName" Source="Tags.Humidity_current" />
+        <Item xsi:type="ActionItem" Target="scren1.Button29" TargetProperty="Actions" Source="Tags.Temprature" Event="Click" Action="Increment Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button30" TargetProperty="Actions" Source="Tags.Temprature" Event="Click" Action="Decrement Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button" TargetProperty="Actions" Source="Tags.Humidifier" Event="Click" Action="Increment Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button1" TargetProperty="Actions" Source="Tags.Humidifier" Event="Click" Action="Decrement Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="scren1.TrendViewer" Source="scren1.m_TrendViewer.bmp" />
+        <Item Target="scren1.Button29" Source="-981842080_Normal.bmp" />
+        <Item Target="scren1.Button29" Source="-981842080_Pressed.bmp" />
+        <Item Target="scren1.Button29" Source="-981842080_Disabled.bmp" />
+        <Item Target="scren1.Button30" Source="-932772112_Normal.bmp" />
+        <Item Target="scren1.Button30" Source="-932772112_Pressed.bmp" />
+        <Item Target="scren1.Button30" Source="-932772112_Disabled.bmp" />
+        <Item Target="scren1.Button" Source="-981842080_Normal.bmp" />
+        <Item Target="scren1.Button" Source="-981842080_Pressed.bmp" />
+        <Item Target="scren1.Button" Source="-981842080_Disabled.bmp" />
+        <Item Target="scren1.Button1" Source="-932772112_Normal.bmp" />
+        <Item Target="scren1.Button1" Source="-932772112_Pressed.bmp" />
+        <Item Target="scren1.Button1" Source="-932772112_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="scren1.Button2" TargetProperty="Actions" Source="screen2" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>scren1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>10</ObjectsCount>
+          <ScreenName>scren1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="scren1.Button29" TargetProperty="Actions" Source="Tags.Temprature" Event="Click" Action="Increment Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button30" TargetProperty="Actions" Source="Tags.Temprature" Event="Click" Action="Decrement Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button" TargetProperty="Actions" Source="Tags.Humidifier" Event="Click" Action="Increment Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="scren1.Button1" TargetProperty="Actions" Source="Tags.Humidifier" Event="Click" Action="Decrement Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="scren1.Button2" Source="bb_arrow right" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="scren1.Button29" Source="panup" Width="25" Height="25" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="scren1.Button30" Source="pandown (1)" Width="25" Height="25" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="scren1.Button" Source="panup" Width="25" Height="25" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="scren1.Button1" Source="pandown (1)" Width="25" Height="25" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items>
+        <Item xsi:type="TrendViewerItem" Target="scren1.TrendViewer" TrendWidth="371" TimeRangeBoundDataItem="" TimeRange="PT4M">
+          <DataSourceNames>
+            <DataSourceName>Tags.Temp_current</DataSourceName>
+            <DataSourceName>Tags.Humidity_current</DataSourceName>
+          </DataSourceNames>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>
